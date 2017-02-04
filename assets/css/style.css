@@ -1,0 +1,381 @@
+body {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	width: 960px; 
+
+}
+
+.container {
+		background-image: url(../images/cork-wallet.png);
+  width: 100%; 
+  /*margin: auto; */
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #cccccc;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	margin-bottom: 0px;
+	width: 960px;
+
+}
+
+.nav-content {
+  width: 100%; 
+  margin: auto;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 32px;
+  padding: 22px;
+  font-weight:bold;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.nav {
+  float: right; 
+  /*position: relative; 
+  top: 10px;
+  left: 300px;*/
+  padding-right: 75px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.nav-link {
+  padding: 0px;
+  margin-top: 50px;
+}
+
+#About {
+	display: inline-block;
+	padding-right: 10px;
+	border-right-style: solid;
+	border-right-color: #dddddd;
+	border-right-width: 2px;
+}
+
+#Portfolio {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right-style: solid;
+	border-right-color: #dddddd;
+	border-right-width: 2px;
+}
+
+#Contact {
+	display: inline-block;
+	padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name-tab {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	width: 33%;
+	padding: 5px;
+	margin-left: 50px;
+  float: left;
+}
+
+.headings {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 3px;
+}
+
+#my-image {
+	float: left;
+	padding: 20px 10px 10px 5px;
+}
+
+p {
+  padding-top: 10px;
+}
+
+
+.main-content {
+	float: left;
+	width: 520px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #dddddd; 
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin-left: 45px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 40px;
+}
+
+.connect {
+	float: left;
+	width: 220px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #dddddd;
+	text-align: center;
+}
+
+.icons {
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	background-color: #666666;
+	color: #ffffff;
+	padding: 25px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+}
+
+#name-box, #email-box {
+	color: #e6e6e6;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 2px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#message-box {
+	height: 150px;
+	color: #e6e6e6;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 2px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 75px;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.bridge {
+	float: left;
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+#hangman {
+	width: 192px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	left: 0px;
+	top: -37px;
+}
+
+.peanuts {
+	float: left;
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+#rpg-game {
+	width: 192px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	left: 0px;
+	top: -37px;
+}
+
+.eyes {
+	float: left;
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+#trivia {
+	width: 192px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	left: 0px;
+	top: -37px;
+}
+
+.phone {
+	float: left;
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+#info-widget {
+	width: 192px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	left: 0px;
+	top: -37px;
+}
+
+.surfer{
+	float: left;
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+#rock-paper {
+	width: 192px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	left: 0px;
+	top: -37px;
+}
+
+@media screen and (max-width: 980px)  {
+	body {
+		width: 100%;
+	}
+	header, .nav-content {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+	.main-content  {
+	clear: both;
+		width: 50%;
+	}
+	.about-text {
+		clear: both;
+		width: 50%;
+	}
+	.connect {
+		width: 25%;
+	} 	
+	#my-image {
+	clear: both;
+	width: 50%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+body {
+		width: 100%;
+	}
+	header, .nav-content {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+	.main-content  {
+		width: 100%;
+		float: left;
+	} 	
+	.about-text {
+		width: 100%;
+		float: left;
+	}
+
+	#my-image {
+		float: left;
+		margin-right: -150px;
+	} 
+	.connect, .icons {
+		text-align: left;
+		width: 100%;
+	} 	
+	.games {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		width: 100%;}
+
+	header, .name-tab {
+		width: 100%;
+		position: static;
+	}
+
+	.nav {
+		text-align: center;
+	}
+	#About, #Portfolio, #Contact {
+		text-align: center;
+	}
+	.container {
+		width: 100%;
+	}
+
+	.main-content  {
+		clear: both;
+		width: 100%;
+		margin: auto;
+	} 
+
+	#my-image {
+		clear: both;
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	.about-text {
+		clear: both;
+	}
+
+	.connect {
+		width: 100%;
+	} 	
+}
